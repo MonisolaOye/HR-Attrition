@@ -4,30 +4,33 @@ This is a Microsoft Excel Project focused on understanding employee attrition pa
 
 Employee attrition analytics focused on identifying why employees voluntarily leave, what might prevented them from leaving, and how we can use data to predict attrition risk. In addition, this type of employee predictive analytics can be used to help organizations understand and design the interventions that will be most effective in reducing unwanted attrition.
 
-# DATA OVERVIEW
+## DATA OVERVIEW
 
 The dataset contains information about employees in the company. It contains various attributes such as employee’s age, gender, monthly income, performance ratings, training history, work experience, job satisfaction, distance from, job role, education field, job level, 
 
 Additionally, the dataset includes a column for attrition which indicates whether an employee has the left the company or is still employed. 
 
 
-# DATA CLEANING PROCESS
+## DATA CLEANING PROCESS
 
 The first step in the project involved data cleaning to ensure accuracy in the dataset analysis. This involves sorting, removing duplicates in the entry of the data to avoid potential biases, checking for missing data and correct data type in each column. 
 I utilized the following steps for the data cleaning process;
 
-_*Data Importation*_: The first thing I did was to import my dataset by clicking on the data ribbon. The dataset was in CSV format, so I convert it to …. As shown below
-		PICTURES
+**Data Importation**: The first thing I did was to import my dataset by clicking on the data ribbon. The dataset was in CSV format, so I convert it to …. As shown below
+		
+  PICTURES
 
-_Data Cleaning_: 
+**Data Cleaning**: 
 
-Removing duplicates: I checked for duplicates by clicking on the remove duplicates on the Data Ribbon. 7 duplicates were discovered as shown in the image below;
-					PICTURE! 
+_**Removing duplicates**_: I checked for duplicates by clicking on the remove duplicates on the Data Ribbon. 7 duplicates were discovered as shown in the image below;
+					
+     PICTURE! 
 
-Column checking: I filtered each column to check for missing and outliers in the data. I also checked for accuracy in the data type for each column. The dataset was devoid of missing data and outliers. 
-					PICTURE!
+_**Column checking**_: I filtered each column to check for missing and outliers in the data. I also checked for accuracy in the data type for each column. The dataset was devoid of missing data and outliers. 
+					
+     PICTURE!
 
-Replacing Values: I replaced he column JobRole contains number 1-4. From the dataset source, they represent the following:
+_**Replacing Values**_: I replaced he column JobRole contains number 1-4. From the dataset source, they represent the following:
 
 Job Role
 
@@ -39,4 +42,4 @@ Job Role
 
 4 = very satisfied
 
-# DATA ANALYSIS
+## DATA ANALYSIS
