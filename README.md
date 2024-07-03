@@ -30,7 +30,7 @@ _**Column checking**_: I filtered each column to check for missing and outliers 
 					
      PICTURE!
 
-_**Replacing Values**_: I replaced he column JobRole contains number 1-4. From the dataset source, they represent the following:
+_**Replacing Values**_: I replaced the column JobRole contains number 1-4. From the dataset source, they represent the following:
 
 Job Role
 
