@@ -18,17 +18,17 @@ I utilized the following steps for the data cleaning process;
 
 **Data Importation**: The first thing I did was to import my dataset by clicking on the data ribbon. The dataset was in CSV format, so I convert it to …. As shown below
 		
-  PICTURES
+  	PICTURES
 
 **Data Cleaning**: 
 
 _**Removing duplicates**_: I checked for duplicates by clicking on the remove duplicates on the Data Ribbon. 7 duplicates were discovered as shown in the image below;
 					
-     PICTURE! 
+     PICTURE
 
 _**Column checking**_: I filtered each column to check for missing and outliers in the data. I also checked for accuracy in the data type for each column. The dataset was devoid of missing data and outliers. 
 					
-     PICTURE!
+     PICTURE
 
 _**Replacing Values**_: I replaced the column JobRole contains number 1-4. From the dataset source, they represent the following:
 
