@@ -51,7 +51,7 @@ _ATTRITION BT EDUCATION_
 
 A doughnut chart was utilized to effectively compare the proportions of attrition of the employees at the company with education.
 
-PICTURE
+![](Attrition by Edu.png)
 
 _ATTRITION BY AGEGROUP BY GENDER_
 
