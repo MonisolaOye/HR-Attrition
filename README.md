@@ -43,3 +43,22 @@ Job Role
 4 = very satisfied
 
 ## DATA ANALYSIS
+# BUSINESS QUESTIONS
+
+## PIVOT TABLE
+ATTRITION BT EDUCATION
+
+A doughnut chart was utilized to effectively compare the proportions of each category with sales
+
+ATTRITION BY AGEGROUP
+
+ATTRITION BY GENDER
+
+ATTRITION BY MARITAL STATUS
+
+ATTRITION BY JOB SATISFACTION
+
+ATTRITION BY EDUCATION
+
+ATTRITION BY DEPARTMENT
+
