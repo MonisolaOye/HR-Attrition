@@ -62,7 +62,7 @@ A stacked column chart was utilized to effectively compare the proportions of at
 _ATTRITION BY YEARS AT COMPANY_
 
 An area chart was utilized to effectively depict the relationship between attrition of the employees at the company with years at company.
-![](AttritionbyYears.png)
+![](AtrritionbyYears.png)
 
 ATTRITION BY MARITAL STATUS
 
