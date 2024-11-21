@@ -43,7 +43,28 @@ Job Role
 4 = very satisfied
 
 ## DATA ANALYSIS
-# BUSINESS QUESTIONS
+
+### BUSINESS QUESTIONS
+
+To further answer the pending questions on employee attrition, the following answers were provided.
+
+**Total Employees**: The COUNT function was used, that is =COUNT(K2:K1474). And the value is 1473
+
+**Active Employees**: The COUNTIF function was used, that is =COUNTIF(D2:D1474, "=No"). And the value is 1236
+
+**Attrition Employees**: The COUNTIF function was used, that is =COUNTIF(D2:D1474, "=Yes"). And the value is 237
+
+**Attrition Rate**: The DIVISION function was used, that is = Attrition Employess/Total Employees * 100. And the value is 16.1%
+
+**Attrition Female Employees**: The COUNTIFS function was used, that is =COUNTIFS(D2:D1474, "=Yes", N2:N1474, "=Female"). And the value is 87
+
+**Attrition Male Employees**: The COUNTIFS function was used, that is =COUNTIFS(D2:D1474, "=Yes", N2:N1474, "=Male"). And the value is 150
+
+**Average Age**: The AVERAGE function was used, that is =AVERAGE(B2:B1474).And the value is 37
+
+**Average Salary**: The AVERAGE function was used, that is =AVERAGE(U2:U1474).And the value $6500.00
+
+
 
 ## PIVOT TABLE
 
@@ -56,7 +77,6 @@ A doughnut chart was utilized to effectively compare the proportions of attritio
 _ATTRITION BY AGEGROUP BY GENDER_
 
 A stacked column chart was utilized to effectively compare the proportions of attrition of the employees at the company with gender and age group.
-
 ![](AttritionbyAgebyGender.png)
 
 _ATTRITION BY YEARS AT COMPANY_
@@ -77,7 +97,9 @@ A bar chart was utilized to effectively compare the proportions of attrition of 
 ![](AttritionbySalary.png)
 
 ATTRITION BY DEPARTMENT
+
+A pie chart was utilized to effectively compare the proportions of attrition of the employees at the company with department.
 ![](AttritionbyDept.png)
 
-ATTRITION BY DEPARTMENT
 
+## INSIGHTS AND RECOMMENDATION
