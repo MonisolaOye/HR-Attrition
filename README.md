@@ -46,19 +46,34 @@ Job Role
 # BUSINESS QUESTIONS
 
 ## PIVOT TABLE
-ATTRITION BT EDUCATION
 
-A doughnut chart was utilized to effectively compare the proportions of each category with sales
+_ATTRITION BT EDUCATION_
 
-ATTRITION BY AGEGROUP
+A doughnut chart was utilized to effectively compare the proportions of attrition of the employees at the company with education.
 
-ATTRITION BY GENDER
+PICTURE
+
+_ATTRITION BY AGEGROUP BY GENDER_
+
+A stacked column chart was utilized to effectively compare the proportions of attrition of the employees at the company with gender and age group.
+
+
+_ATTRITION BY YEARS AT COMPANY_
+
+An area chart was utilized to effectively depict the relationship between attrition of the employees at the company with years at company.
+
 
 ATTRITION BY MARITAL STATUS
 
+A pie chart was utilized to effectively compare the proportions of attrition of the employees at the company with marital status.
+
+
 ATTRITION BY JOB SATISFACTION
 
-ATTRITION BY EDUCATION
+ATTRITION BY SALARY
+
+A bar chart was utilized to effectively compare the proportions of attrition of the employees at the company with salary earned.
+
 
 ATTRITION BY DEPARTMENT
 
