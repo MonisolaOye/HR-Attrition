@@ -51,13 +51,13 @@ _ATTRITION BT EDUCATION_
 
 A doughnut chart was utilized to effectively compare the proportions of attrition of the employees at the company with education.
 
-![](Attrition by Edu.png)
+![](AttritionbyEdu.png)
 
 _ATTRITION BY AGEGROUP BY GENDER_
 
 A stacked column chart was utilized to effectively compare the proportions of attrition of the employees at the company with gender and age group.
 
-
+![](AttritionbyAgebyGender.png)
 _ATTRITION BY YEARS AT COMPANY_
 
 An area chart was utilized to effectively depict the relationship between attrition of the employees at the company with years at company.
