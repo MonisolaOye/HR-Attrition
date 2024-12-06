@@ -30,7 +30,7 @@ _**Column checking**_: I filtered each column to check for missing and outliers 
 
 _**Replacing Values**_: I replaced the column JobRole contains number 1-4. From the dataset source, they represent the following:
 
-Job Role
+Job Satisfaction
 
 1 = very dissatisfied
 
@@ -39,6 +39,28 @@ Job Role
 3 = satisfied
 
 4 = very satisfied
+
+Environment Satisfaction
+
+1 = Low
+
+2 = Medium
+
+3 = High
+
+4 = Very High
+
+Education Level
+
+1 = High School
+
+2 = Associate
+
+3 = Bachelor's degree
+
+4 = Master's degree
+
+5 = Doctorate degree
 
 ## DATA ANALYSIS
 
@@ -109,3 +131,6 @@ After the analysis
 6. Employees from the Research & Development had attrition rate of 56%, HR had 39%, and Sales had 5%
 7. Employees with up to 5K monthly income had the highest attrition count of 163
 8. Entry level employees faced the highest attrition, while the senior employees had the lowest turnover
+
+## RECOMMENDATIONS
+
