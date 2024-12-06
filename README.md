@@ -30,7 +30,7 @@ _**Column checking**_: I filtered each column to check for missing and outliers 
 
 _**Replacing Values**_: I replaced the column JobRole contains number 1-4. From the dataset source, they represent the following:
 
-Job Satisfaction
+**Job Satisfaction**
 
 1 = very dissatisfied
 
@@ -40,7 +40,7 @@ Job Satisfaction
 
 4 = very satisfied
 
-Environment Satisfaction
+**Environment Satisfaction**
 
 1 = Low
 
@@ -50,7 +50,7 @@ Environment Satisfaction
 
 4 = Very High
 
-Education Level
+**Education Level**
 
 1 = High School
 
@@ -96,6 +96,7 @@ A doughnut chart was utilized to effectively compare the proportions of attritio
 _ATTRITION BY AGEGROUP BY GENDER_
 
 A stacked column chart was utilized to effectively compare the proportions of attrition of the employees at the company with gender and age group.
+
 ![](AttritionbyAgebyGender.png)
 
 _ATTRITION BY YEARS AT COMPANY_
@@ -103,12 +104,16 @@ _ATTRITION BY YEARS AT COMPANY_
 An area chart was utilized to effectively depict the relationship between attrition of the employees at the company with years at company.
 ![](AtrritionbyYears.png)
 
-ATTRITION BY MARITAL STATUS
+_ATTRITION BY MARITAL STATUS_
 
 A pie chart was utilized to effectively compare the proportions of attrition of the employees at the company with marital status.
 ![](AttritionbyMaritalstatus.png)
 
-ATTRITION BY JOB SATISFACTION
+_ATTRITION BY JOB SATISFACTION_
+
+_ATTRITION BY EDUCATION LEVEL_
+
+_ATTRITION BY JOB LEVEL_
 
 ATTRITION BY SALARY
 
