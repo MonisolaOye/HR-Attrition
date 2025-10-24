@@ -1,34 +1,61 @@
 # INTRODUCTION
 
-This is a Microsoft Excel Project focused on understanding employee attrition patterns. This project was carried out in an attempt to analyze and monitor employee attrition trends within an organization. 
+Employee attrition is a critical challenge faced by many organizations today, as it directly affects productivity, morale, and overall business performance. Understanding the factors driving employee turnover is essential for organizations seeking to build a stable and motivated workforce.
 
-Employee attrition analytics focused on identifying why employees voluntarily leave, what might prevented them from leaving, and how we can use data to predict attrition risk. In addition, this type of employee predictive analytics can be used to help organizations understand and design the interventions that will be most effective in reducing unwanted attrition.
+In this project, I conducted a comprehensive Employee Attrition Analysis to uncover key trends, patterns, and insights from workforce data. The goal was to identify the major contributors to employee turnover and provide actionable recommendations that can help improve retention strategies and strengthen organizational performance.
+
+Using Microsoft Excel, I analyzed employee demographics, job satisfaction levels, performance metrics, departmental structures, and compensation data. Through this analysis, I was able to determine which employee groups were most affected by attrition, understand the underlying causes, and highlight actionable areas for improvement.
+
+The findings from this analysis provide a data-driven understanding of how factors such as age, gender, job role, marital status, income level, and job satisfaction influence attrition rates. These insights serve as a foundation for designing targeted retention initiatives and creating a more supportive and engaging work environment.
+
+This project not only strengthened my analytical and storytelling skills but also demonstrated the power of data in driving strategic HR decisions.
 
 ## DATA OVERVIEW
-The HR attrition dataset comprises 1,470 rows and 35 columns, each shedding light on various aspects of the organizational environment. Key features such as employee number, age, and gender provide essential demographic insights into the workforce. The "attrition" column, categorized into "yes" and "no," serves as the focal point for analyzing employee turnover. Additional variables, including department, marital status, job involvement, satisfaction levels, monthly income, and tenure metrics like years in the current role and years since the last promotion, offer a comprehensive view of organizational dynamics. This dataset forms the foundation for an in-depth exploration of the factors influencing attrition, enabling a nuanced analysis of how personal and professional elements impact the employee experience.
 
-Additionally, the dataset includes a column for attrition which indicates whether an employee has the left the company or is still employed. 
+The HR Attrition Dataset used for this project consists of 1,470 records and 35 columns, providing a comprehensive overview of the organization’s workforce. Each record represents an employee, capturing essential demographic, professional, and satisfaction-related information.
+
+Key features include variables such as Employee Number, Age, Gender, Department, Marital Status, Job Involvement, Satisfaction Levels, Monthly Income, and Career Tenure (e.g., Years in Current Role and Years Since Last Promotion).
+
+The most critical variable, “Attrition”, is a categorical field labeled as “Yes” or “No”, indicating whether an employee has left the company or remains employed. This serves as the foundation for exploring and interpreting attrition trends across different dimensions of the dataset.
+
+By combining demographic, behavioral, and performance metrics, this dataset enables an in-depth exploration of the drivers of employee turnover and offers valuable insights into how personal and professional factors shape the overall employee experience.
+
 
 ## DATA CLEANING PROCESS
 
-The first step in the project involved data cleaning to ensure accuracy in the dataset analysis. This involves sorting, removing duplicates in the entry of the data to avoid potential biases, checking for missing data and correct data type in each column. 
-I utilized the following steps for the data cleaning process;
+The first step in this project involved data cleaning, a crucial process to ensure the accuracy, reliability, and consistency of the dataset before analysis. Proper data preparation minimizes potential biases and improves the quality of insights derived from the analysis.
 
-**Data Importation**: The first thing I did was to import my dataset by clicking on the data ribbon. The dataset was in CSV format, so I convert it to …. As shown below
-		
+To achieve this, several key actions were performed, including sorting, removing duplicate entries, checking for missing values, validating data types, and ensuring that each column contained accurate and meaningful information.
+
+1. Data Importation
+
+The dataset, originally in CSV format, was imported into Microsoft Excel through the Data ribbon. After importing, it was converted into an Excel workbook format (.xlsx) to enable efficient data manipulation, cleaning, and analysis.
+
 ![](Data.png)
 
-**Data Cleaning**: 
+2. Removing Duplicates
 
-_**Removing duplicates**_: I checked for duplicates by clicking on the remove duplicates on the Data Ribbon. 7 duplicates were discovered as shown in the image below;
-					
+To maintain data integrity and avoid distortion in the analysis results, I used the Remove Duplicates feature on the Data ribbon to identify and eliminate redundant entries.
+During this process, 7 duplicate records were detected and removed, ensuring that each employee record in the dataset was unique.
 ![](Duplicate.png)
 
-_**Column checking**_: I filtered each column to check for missing and outliers in the data. I also checked for accuracy in the data type for each column. The dataset was devoid of missing data and outliers. 
-					
+3. Column Validation and Data Type Checking
+
+Each column in the dataset was thoroughly reviewed to verify accuracy and consistency. I applied filters across all columns to check for:
+
+Missing values
+
+Outliers or irregular entries
+
+Incorrect data types
+
+The dataset was confirmed to be clean, with no missing values or extreme outliers detected. Data types (numeric, text, categorical) were also validated to align with the nature of each variable.
+
 ![](ColumnChecking.png)
 
-_**Replacing Values**_: I replaced the column JobRole contains number 1-4. From the dataset source, they represent the following:
+4. Replacing Encoded Values
+
+In some instances, categorical data was encoded numerically. For example, the JobRole column contained numeric values (1–4), which represented specific job roles according to the dataset’s documentation. These numeric codes were replaced with their corresponding job titles to improve readability and facilitate accurate analysis.
 
 **Job Satisfaction**
 
@@ -68,22 +95,29 @@ _**Replacing Values**_: I replaced the column JobRole contains number 1-4. From 
 
 To further answer the pending questions on employee attrition, the following answers were provided.
 
-**Total Employees**: The COUNT function was used, that is =COUNT(K2:K1474). And the value is 1473
+Total Employees:
+Used the COUNT function — =COUNT(K2:K1474) → 1,473 employees
 
-**Active Employees**: The COUNTIF function was used, that is =COUNTIF(D2:D1474, "=No"). And the value is 1236
+Active Employees:
+Used the COUNTIF function — =COUNTIF(D2:D1474, "=No") → 1,236 employees
 
-**Attrition Employees**: The COUNTIF function was used, that is =COUNTIF(D2:D1474, "=Yes"). And the value is 237
+Attrition Employees:
+Used the COUNTIF function — =COUNTIF(D2:D1474, "=Yes") → 237 employees
 
-**Attrition Rate**: The DIVISION function was used, that is = Attrition Employess/Total Employees * 100. And the value is 16%
+Attrition Rate:
+Calculated using =(Attrition Employees / Total Employees) * 100 → 16%
 
-**Attrition Female Employees**: The COUNTIFS function was used, that is =COUNTIFS(D2:D1474, "=Yes", N2:N1474, "=Female"). And the value is 87
+Attrition by Gender:
 
-**Attrition Male Employees**: The COUNTIFS function was used, that is =COUNTIFS(D2:D1474, "=Yes", N2:N1474, "=Male"). And the value is 150
+Female Employees: =COUNTIFS(D2:D1474, "=Yes", N2:N1474, "=Female") → 87
 
-**Average Age**: The AVERAGE function was used, that is =AVERAGE(B2:B1474).And the value is 37
+Male Employees: =COUNTIFS(D2:D1474, "=Yes", N2:N1474, "=Male") → 150
 
-**Average Salary**: The AVERAGE function was used, that is =AVERAGE(U2:U1474).And the value $6500.00
+Average Age:
+Used the AVERAGE function — =AVERAGE(B2:B1474) → 37 years
 
+Average Salary:
+Used the AVERAGE function — =AVERAGE(U2:U1474) → $6,500.00
 
 
 ## PIVOT TABLE
@@ -126,16 +160,44 @@ A pie chart was utilized to effectively compare the proportions of attrition of 
 ![](AttritionbyDept.png)
 
 
-## INSIGHTS AND RECOMMENDATION
-After the analysis
-1. The total employee count is 1473 with attrition rate of 16%
-2. The attrition rate among the male employees was the highest at 63%
-3. 
-4. Age group 26-37 had the highest attrition count of 116 employees
-5. Employees that are single had the highest atrrition rate of 51%, followed by married 35% and the divorced 14%
-6. Employees from the Research & Development had attrition rate of 56%, HR had 39%, and Sales had 5%
-7. Employees with up to 5K monthly income had the highest attrition count of 163
-8. Entry level employees faced the highest attrition, while the senior employees had the lowest turnover
+## INSIGHTS
+Key Insights from the Employee Attrition Analysis
+
+The organization has a total of 1,473 employees with an overall attrition rate of 16%.
+
+Male employees accounted for the majority of attrition, representing 63% of total exits.
+
+Interestingly, employees who reported being satisfied with their jobs (73 individuals) still chose to leave, suggesting other influencing factors beyond job satisfaction.
+
+The 26–37 age group experienced the highest attrition, with 116 employees leaving the organization.
+
+Single employees had the highest attrition rate at 51%, followed by married employees (35%) and divorced employees (14%).
+
+The Research & Development department recorded the highest attrition rate at 56%, followed by Human Resources (39%) and Sales (5%).
+
+Employees earning up to ₦5,000 monthly had the highest attrition count (163 employees), indicating a possible link between compensation and retention.
+
+Entry-level employees faced the highest turnover, while senior-level employees showed the lowest attrition.
+
+Those with low environmental satisfaction were more likely to leave the organization.
+
+Employees holding a Bachelor’s degree had the highest attrition count (99 employees).
 
 ## RECOMMENDATIONS
+
+Review Compensation Structures: Reassess salary scales, especially for lower-income earners, to ensure competitive pay and reduce financial dissatisfaction.
+
+Enhance Employee Engagement: Investigate reasons behind attrition among satisfied employees—factors such as career growth, recognition, or work-life balance may be contributing.
+
+Focus on Career Development: Provide mentorship and growth opportunities for entry-level employees to improve retention and career satisfaction.
+
+Support Work-Life Balance: Introduce flexible policies that address the needs of younger and single employees, who form the largest group leaving the company.
+
+Strengthen Departmental Retention Strategies: Conduct deeper analysis within R&D and HR departments to identify role-specific or managerial issues causing higher turnover.
+
+Improve Workplace Environment: Enhance physical and cultural aspects of the work environment to boost overall employee satisfaction.
+
+Targeted Retention Programs: Develop tailored initiatives for employees aged 26–37, as they represent a critical talent group with high attrition potential.
+
+
 
