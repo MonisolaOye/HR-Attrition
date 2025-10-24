@@ -158,21 +158,21 @@ This chart highlights how personal circumstances, such as being single, married,
 
 A stacked line chart was used to analyze attrition in relation to employee job satisfaction levels.
 This visualization provides insights into how satisfaction levels correlate with attrition, helping to identify whether lower satisfaction leads to higher turnover.
-![](AtrritionbyJobSatisfaction.png)
+![](AttritionbyJobSatisfaction.png)
 
 
 6. Attrition by Education Level
 
 Another doughnut chart was used to examine attrition rates across various education levels.
 This chart provides a quick comparison of how education attainment impacts employees’ retention or decision to leave the organization.
-![](AtrritionbyEduLevel.png)
+![](AttritionbyEduLevel.png)
 
 
 7. Attrition by Job Level
 
 A line chart was used to show how job level correlates with attrition rates.
 This visualization helps in understanding whether employees at lower or higher job levels are more likely to leave the organization.
-![](AtrritionbyJobLevel.png)
+![](AttritionbyJobLevel.png)
 
 
 8. Attrition by Salary
