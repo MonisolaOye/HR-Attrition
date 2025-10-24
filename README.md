@@ -122,41 +122,69 @@ Used the AVERAGE function — =AVERAGE(U2:U1474) → $6,500.00
 
 ## PIVOT TABLE
 
-_ATTRITION BT EDUCATION_
 
-A doughnut chart was utilized to effectively compare the proportions of attrition of the employees at the company with education.
+Data Exploration and Visualization
+
+To uncover meaningful insights from the dataset, a series of visualizations were created using Microsoft Excel. These charts provide a clear and comprehensive view of how different demographic and professional factors influence employee attrition within the organization.
+
+1. Attrition by Education
+
+A doughnut chart was used to effectively illustrate the proportion of employee attrition across various education categories.
+This visualization highlights how educational qualifications may influence employees’ decisions to stay or leave the organization.
 ![](AttritionbyEdu.png)
 
-_ATTRITION BY AGEGROUP BY GENDER_
 
-A stacked column chart was utilized to effectively compare the proportions of attrition of the employees at the company with gender and age group.
+2. Attrition by Age Group and Gender
 
+A stacked column chart was utilized to compare attrition trends across different age groups and genders.
+This visualization helps identify which age brackets and gender groups experience the highest turnover, providing valuable insights for targeted retention efforts.
 ![](AttritionbyAgebyGender.png)
 
-_ATTRITION BY YEARS AT COMPANY_
 
-An area chart was utilized to effectively depict the relationship between attrition of the employees at the company with years at company.
+3. Attrition by Years at Company
+
+An area chart was created to show the relationship between employee tenure and attrition rate.
+The chart provides a clear view of how the number of years an employee has spent in the company impacts their likelihood of leaving.
 ![](AtrritionbyYears.png)
 
-_ATTRITION BY MARITAL STATUS_
 
-A pie chart was utilized to effectively compare the proportions of attrition of the employees at the company with marital status.
+4. Attrition by Marital Status
+
+A pie chart was used to illustrate the proportions of attrition across different marital status categories.
+This chart highlights how personal circumstances, such as being single, married, or divorced, may influence employee turnover.
 ![](AttritionbyMaritalstatus.png)
 
-_ATTRITION BY JOB SATISFACTION_
+5. Attrition by Job Satisfaction
 
-_ATTRITION BY EDUCATION LEVEL_
+A stacked line chart was used to analyze attrition in relation to employee job satisfaction levels.
+This visualization provides insights into how satisfaction levels correlate with attrition, helping to identify whether lower satisfaction leads to higher turnover.
+![](AtrritionbyJobSatisfaction.png)
 
-_ATTRITION BY JOB LEVEL_
 
-ATTRITION BY SALARY
+6. Attrition by Education Level
 
-A bar chart was utilized to effectively compare the proportions of attrition of the employees at the company with salary earned.
+Another doughnut chart was used to examine attrition rates across various education levels.
+This chart provides a quick comparison of how education attainment impacts employees’ retention or decision to leave the organization.
+![](AtrritionbyEduLevel.png)
+
+
+7. Attrition by Job Level
+
+A line chart was used to show how job level correlates with attrition rates.
+This visualization helps in understanding whether employees at lower or higher job levels are more likely to leave the organization.
+![](AtrritionbyJobLevel.png)
+
+
+8. Attrition by Salary
+
+A bar chart was created to compare attrition rates across different salary ranges.
+The visualization clearly shows how compensation influences employee turnover, revealing whether lower-income groups are more likely to leave the organization.
 ![](AttritionbySalary.png)
 
-ATTRITION BY DEPARTMENT
+9. Attrition by Department
 
-A pie chart was utilized to effectively compare the proportions of attrition of the employees at the company with department.
+A pie chart was used to illustrate attrition proportions across the organization’s various departments.
+This visualization identifies which departments experience the highest turnover, enabling management to focus on areas that require better retention strategies.
 ![](AttritionbyDept.png)
 
 
