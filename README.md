@@ -31,13 +31,17 @@ To achieve this, several key actions were performed, including sorting, removing
 
 The dataset, originally in CSV format, was imported into Microsoft Excel through the Data ribbon. After importing, it was converted into an Excel workbook format (.xlsx) to enable efficient data manipulation, cleaning, and analysis.
 
+
 ![](Data.png)
+
 
 2. Removing Duplicates
 
 To maintain data integrity and avoid distortion in the analysis results, I used the Remove Duplicates feature on the Data ribbon to identify and eliminate redundant entries.
 During this process, 7 duplicate records were detected and removed, ensuring that each employee record in the dataset was unique.
+
 ![](Duplicate.png)
+
 
 3. Column Validation and Data Type Checking
 
@@ -51,7 +55,9 @@ Incorrect data types
 
 The dataset was confirmed to be clean, with no missing values or extreme outliers detected. Data types (numeric, text, categorical) were also validated to align with the nature of each variable.
 
+
 ![](ColumnChecking.png)
+
 
 4. Replacing Encoded Values
 
@@ -131,6 +137,7 @@ To uncover meaningful insights from the dataset, a series of visualizations were
 
 A doughnut chart was used to effectively illustrate the proportion of employee attrition across various education categories.
 This visualization highlights how educational qualifications may influence employees’ decisions to stay or leave the organization.
+
 ![](AttritionbyEdu.png)
 
 
@@ -138,6 +145,7 @@ This visualization highlights how educational qualifications may influence emplo
 
 A stacked column chart was utilized to compare attrition trends across different age groups and genders.
 This visualization helps identify which age brackets and gender groups experience the highest turnover, providing valuable insights for targeted retention efforts.
+
 ![](AttritionbyAgebyGender.png)
 
 
@@ -145,6 +153,7 @@ This visualization helps identify which age brackets and gender groups experienc
 
 An area chart was created to show the relationship between employee tenure and attrition rate.
 The chart provides a clear view of how the number of years an employee has spent in the company impacts their likelihood of leaving.
+
 ![](AtrritionbyYears.png)
 
 
@@ -152,12 +161,14 @@ The chart provides a clear view of how the number of years an employee has spent
 
 A pie chart was used to illustrate the proportions of attrition across different marital status categories.
 This chart highlights how personal circumstances, such as being single, married, or divorced, may influence employee turnover.
+
 ![](AttritionbyMaritalstatus.png)
 
 5. Attrition by Job Satisfaction
 
 A stacked line chart was used to analyze attrition in relation to employee job satisfaction levels.
 This visualization provides insights into how satisfaction levels correlate with attrition, helping to identify whether lower satisfaction leads to higher turnover.
+
 ![](AttritionbyJobSatisfaction.png)
 
 
@@ -165,6 +176,7 @@ This visualization provides insights into how satisfaction levels correlate with
 
 Another doughnut chart was used to examine attrition rates across various education levels.
 This chart provides a quick comparison of how education attainment impacts employees’ retention or decision to leave the organization.
+
 ![](AttritionbyEduLevel.png)
 
 
@@ -172,6 +184,7 @@ This chart provides a quick comparison of how education attainment impacts emplo
 
 A line chart was used to show how job level correlates with attrition rates.
 This visualization helps in understanding whether employees at lower or higher job levels are more likely to leave the organization.
+
 ![](AttritionbyJobLevel.png)
 
 
@@ -179,12 +192,14 @@ This visualization helps in understanding whether employees at lower or higher j
 
 A bar chart was created to compare attrition rates across different salary ranges.
 The visualization clearly shows how compensation influences employee turnover, revealing whether lower-income groups are more likely to leave the organization.
+
 ![](AttritionbySalary.png)
 
 9. Attrition by Department
 
 A pie chart was used to illustrate attrition proportions across the organization’s various departments.
 This visualization identifies which departments experience the highest turnover, enabling management to focus on areas that require better retention strategies.
+
 ![](AttritionbyDept.png)
 
 
@@ -207,7 +222,7 @@ Employees earning up to ₦5,000 monthly had the highest attrition count (163 em
 
 Entry-level employees faced the highest turnover, while senior-level employees showed the lowest attrition.
 
-Those with low environmental satisfaction were more likely to leave the organization.
+Employees with low environmental satisfaction were more likely to leave, emphasizing the importance of a positive and supportive workplace culture.
 
 Employees holding a Bachelor’s degree had the highest attrition count (99 employees).
 
@@ -226,6 +241,17 @@ Strengthen Departmental Retention Strategies: Conduct deeper analysis within R&D
 Improve Workplace Environment: Enhance physical and cultural aspects of the work environment to boost overall employee satisfaction.
 
 Targeted Retention Programs: Develop tailored initiatives for employees aged 26–37, as they represent a critical talent group with high attrition potential.
+
+
+Enhance Retention Strategies: Focus on developing tailored retention programs, especially for younger and entry-level employees.
+
+Review Compensation Structure: Reassess salary scales and benefits, particularly for employees earning below $5,000 monthly.
+
+Improve Work Environment: Conduct regular surveys to identify environmental concerns and take actionable steps to boost satisfaction and engagement.
+
+Strengthen Career Development: Offer growth opportunities, mentorship programs, and clear promotion pathways to reduce turnover among ambitious professionals.
+
+Targeted Support for R&D Department: Investigate the root causes of high attrition in Research & Development and implement targeted retention initiatives.
 
 
 
