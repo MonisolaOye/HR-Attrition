@@ -1,3 +1,6 @@
+![](Data.png)
+
+
 # INTRODUCTION
 
 Employee attrition is a critical challenge faced by many organizations today, as it directly affects productivity, morale, and overall business performance. Understanding the factors driving employee turnover is essential for organizations seeking to build a stable and motivated workforce.
