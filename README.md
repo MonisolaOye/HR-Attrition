@@ -1,4 +1,4 @@
-![](Data.png)
+![](Attritionimage.jpg)
 
 
 # INTRODUCTION
@@ -239,29 +239,23 @@ _Key Insights from the Employee Attrition Analysis_
 
 ## RECOMMENDATIONS
 
-- Review Compensation Structures: Reassess salary scales, especially for lower-income earners, to ensure competitive pay and reduce financial dissatisfaction.
+- _Review Compensation Structures:_ Reassess salary scales, especially for lower-income earners, to ensure competitive pay and reduce financial dissatisfaction.
 
-- Enhance Employee Engagement: Investigate reasons behind attrition among satisfied employees—factors such as career growth, recognition, or work-life balance may be contributing.
+- _Enhance Employee Engagement:_ Investigate reasons behind attrition among satisfied employees—factors such as career growth, recognition, or work-life balance may be contributing.
 
-- Focus on Career Development: Provide mentorship and growth opportunities for entry-level employees to improve retention and career satisfaction.
+- _Focus on Career Development:_ Provide mentorship and growth opportunities for entry-level employees to improve retention and career satisfaction.
 
-- Support Work-Life Balance: Introduce flexible policies that address the needs of younger and single employees, who form the largest group leaving the company.
+- _Support Work-Life Balance:_ Introduce flexible policies that address the needs of younger and single employees, who form the largest group leaving the company.
 
-- Strengthen Departmental Retention Strategies: Conduct deeper analysis within R&D and HR departments to identify role-specific or managerial issues causing higher turnover.
+- _Targeted Retention Programs:_ Develop tailored initiatives for employees aged 26–37, as they represent a critical talent group with high attrition potential.
 
-- Improve Workplace Environment: Enhance physical and cultural aspects of the work environment to boost overall employee satisfaction.
+- _Enhance Retention Strategies:_ Focus on developing tailored retention programs, especially for younger and entry-level employees.
 
-- Targeted Retention Programs: Develop tailored initiatives for employees aged 26–37, as they represent a critical talent group with high attrition potential.
+- _Improve Work Environment:_ Conduct regular surveys to identify environmental concerns and take actionable steps to boost satisfaction and engagement.
 
-- Enhance Retention Strategies: Focus on developing tailored retention programs, especially for younger and entry-level employees.
+- _Strengthen Career Development:_ Offer growth opportunities, mentorship programs, and clear promotion pathways to reduce turnover among ambitious professionals.
 
-- Review Compensation Structure: Reassess salary scales and benefits, particularly for employees earning below $5,000 monthly.
-
-- Improve Work Environment: Conduct regular surveys to identify environmental concerns and take actionable steps to boost satisfaction and engagement.
-
-- Strengthen Career Development: Offer growth opportunities, mentorship programs, and clear promotion pathways to reduce turnover among ambitious professionals.
-
-- Targeted Support for R&D Department: Investigate the root causes of high attrition in Research & Development and implement targeted retention initiatives.
+- _Targeted Support for R&D Department:_ Investigate the root causes of high attrition in Research & Development and implement targeted retention initiatives.
 
 
 
