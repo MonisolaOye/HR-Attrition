@@ -47,11 +47,11 @@ During this process, 7 duplicate records were detected and removed, ensuring tha
 
 Each column in the dataset was thoroughly reviewed to verify accuracy and consistency. I applied filters across all columns to check for:
 
-Missing values
+- Missing values
 
-Outliers or irregular entries
+- Outliers or irregular entries
 
-Incorrect data types
+- Incorrect data types
 
 The dataset was confirmed to be clean, with no missing values or extreme outliers detected. Data types (numeric, text, categorical) were also validated to align with the nature of each variable.
 
@@ -101,35 +101,40 @@ In some instances, categorical data was encoded numerically. For example, the Jo
 
 To further answer the pending questions on employee attrition, the following answers were provided.
 
-Total Employees:
+- _Total Employees:_
+
 Used the COUNT function — =COUNT(K2:K1474) → 1,473 employees
 
-Active Employees:
+- _Active Employees:_
+
 Used the COUNTIF function — =COUNTIF(D2:D1474, "=No") → 1,236 employees
 
-Attrition Employees:
+- _Attrition Employees:_
+
 Used the COUNTIF function — =COUNTIF(D2:D1474, "=Yes") → 237 employees
 
-Attrition Rate:
+- _Attrition Rate:_
 Calculated using =(Attrition Employees / Total Employees) * 100 → 16%
 
-Attrition by Gender:
+- _Attrition by Gender:_
 
 Female Employees: =COUNTIFS(D2:D1474, "=Yes", N2:N1474, "=Female") → 87
 
 Male Employees: =COUNTIFS(D2:D1474, "=Yes", N2:N1474, "=Male") → 150
 
-Average Age:
+- _Average Age:_
+
 Used the AVERAGE function — =AVERAGE(B2:B1474) → 37 years
 
-Average Salary:
+- _Average Salary:_
+
 Used the AVERAGE function — =AVERAGE(U2:U1474) → $6,500.00
 
 
 ## PIVOT TABLE
 
 
-Data Exploration and Visualization
+**Data Exploration and Visualization**
 
 To uncover meaningful insights from the dataset, a series of visualizations were created using Microsoft Excel. These charts provide a clear and comprehensive view of how different demographic and professional factors influence employee attrition within the organization.
 
@@ -202,56 +207,58 @@ This visualization identifies which departments experience the highest turnover,
 
 ![](AttritionbyDept.png)
 
+# DASHBOARD
+
+![](Dashoard.png)
 
 ## INSIGHTS
-Key Insights from the Employee Attrition Analysis
+_Key Insights from the Employee Attrition Analysis_
 
-The organization has a total of 1,473 employees with an overall attrition rate of 16%.
+- The organization has a total of 1,473 employees with an overall attrition rate of 16%.
 
-Male employees accounted for the majority of attrition, representing 63% of total exits.
+- Male employees accounted for the majority of attrition, representing 63% of total exits.
 
-Interestingly, employees who reported being satisfied with their jobs (73 individuals) still chose to leave, suggesting other influencing factors beyond job satisfaction.
+- Interestingly, employees who reported being satisfied with their jobs (73 individuals) still chose to leave, suggesting other influencing factors beyond job satisfaction.
 
-The 26–37 age group experienced the highest attrition, with 116 employees leaving the organization.
+- The 26–37 age group experienced the highest attrition, with 116 employees leaving the organization.
 
-Single employees had the highest attrition rate at 51%, followed by married employees (35%) and divorced employees (14%).
+- Single employees had the highest attrition rate at 51%, followed by married employees (35%) and divorced employees (14%).
 
-The Research & Development department recorded the highest attrition rate at 56%, followed by Human Resources (39%) and Sales (5%).
+- The Research & Development department recorded the highest attrition rate at 56%, followed by Human Resources (39%) and Sales (5%).
 
-Employees earning up to ₦5,000 monthly had the highest attrition count (163 employees), indicating a possible link between compensation and retention.
+- Employees earning up to ₦5,000 monthly had the highest attrition count (163 employees), indicating a possible link between compensation and retention.
 
-Entry-level employees faced the highest turnover, while senior-level employees showed the lowest attrition.
+- Entry-level employees faced the highest turnover, while senior-level employees showed the lowest attrition.
 
-Employees with low environmental satisfaction were more likely to leave, emphasizing the importance of a positive and supportive workplace culture.
+- Employees with low environmental satisfaction were more likely to leave, emphasizing the importance of a positive and supportive workplace culture.
 
-Employees holding a Bachelor’s degree had the highest attrition count (99 employees).
+- Employees holding a Bachelor’s degree had the highest attrition count (99 employees).
 
 ## RECOMMENDATIONS
 
-Review Compensation Structures: Reassess salary scales, especially for lower-income earners, to ensure competitive pay and reduce financial dissatisfaction.
+- Review Compensation Structures: Reassess salary scales, especially for lower-income earners, to ensure competitive pay and reduce financial dissatisfaction.
 
-Enhance Employee Engagement: Investigate reasons behind attrition among satisfied employees—factors such as career growth, recognition, or work-life balance may be contributing.
+- Enhance Employee Engagement: Investigate reasons behind attrition among satisfied employees—factors such as career growth, recognition, or work-life balance may be contributing.
 
-Focus on Career Development: Provide mentorship and growth opportunities for entry-level employees to improve retention and career satisfaction.
+- Focus on Career Development: Provide mentorship and growth opportunities for entry-level employees to improve retention and career satisfaction.
 
-Support Work-Life Balance: Introduce flexible policies that address the needs of younger and single employees, who form the largest group leaving the company.
+- Support Work-Life Balance: Introduce flexible policies that address the needs of younger and single employees, who form the largest group leaving the company.
 
-Strengthen Departmental Retention Strategies: Conduct deeper analysis within R&D and HR departments to identify role-specific or managerial issues causing higher turnover.
+- Strengthen Departmental Retention Strategies: Conduct deeper analysis within R&D and HR departments to identify role-specific or managerial issues causing higher turnover.
 
-Improve Workplace Environment: Enhance physical and cultural aspects of the work environment to boost overall employee satisfaction.
+- Improve Workplace Environment: Enhance physical and cultural aspects of the work environment to boost overall employee satisfaction.
 
-Targeted Retention Programs: Develop tailored initiatives for employees aged 26–37, as they represent a critical talent group with high attrition potential.
+- Targeted Retention Programs: Develop tailored initiatives for employees aged 26–37, as they represent a critical talent group with high attrition potential.
 
+- Enhance Retention Strategies: Focus on developing tailored retention programs, especially for younger and entry-level employees.
 
-Enhance Retention Strategies: Focus on developing tailored retention programs, especially for younger and entry-level employees.
+- Review Compensation Structure: Reassess salary scales and benefits, particularly for employees earning below $5,000 monthly.
 
-Review Compensation Structure: Reassess salary scales and benefits, particularly for employees earning below $5,000 monthly.
+- Improve Work Environment: Conduct regular surveys to identify environmental concerns and take actionable steps to boost satisfaction and engagement.
 
-Improve Work Environment: Conduct regular surveys to identify environmental concerns and take actionable steps to boost satisfaction and engagement.
+- Strengthen Career Development: Offer growth opportunities, mentorship programs, and clear promotion pathways to reduce turnover among ambitious professionals.
 
-Strengthen Career Development: Offer growth opportunities, mentorship programs, and clear promotion pathways to reduce turnover among ambitious professionals.
-
-Targeted Support for R&D Department: Investigate the root causes of high attrition in Research & Development and implement targeted retention initiatives.
+- Targeted Support for R&D Department: Investigate the root causes of high attrition in Research & Development and implement targeted retention initiatives.
 
 
 
