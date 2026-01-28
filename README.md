@@ -209,7 +209,7 @@ This visualization identifies which departments experience the highest turnover,
 
 # DASHBOARD
 
-![](Dashoard.png)
+![](Dashboard.png)
 
 ## INSIGHTS
 _Key Insights from the Employee Attrition Analysis_
