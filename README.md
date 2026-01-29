@@ -212,6 +212,8 @@ This visualization identifies which departments experience the highest turnover,
 
 # DASHBOARD
 
+This dashboard presents an overview of employee attrition within the organization using summarized and visualized data in Microsoft Excel. It highlights key attrition trends across departments, roles, tenure, and other workforce metrics to support data-driven insights. The analysis helps identify turnover patterns and areas of concern, enabling informed decisions aimed at improving employee retention and workforce planning.
+
 ![](Dashboard.png)
 
 ## INSIGHTS
