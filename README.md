@@ -182,16 +182,20 @@ This visualization provides insights into how satisfaction levels correlate with
 
 6. Attrition by Education Level
 
-Another doughnut chart was used to examine attrition rates across various education levels.
+A line chart was used to show how education level correlates with attrition rates.
 This chart provides a quick comparison of how education attainment impacts employees’ retention or decision to leave the organization.
+
 
 ![](AttritionbyEduLevel.png)
 
 
 7. Attrition by Job Level
 
-A line chart was used to show how job level correlates with attrition rates.
+A doughnut chart was used to examine attrition rates across various job levels.
 This visualization helps in understanding whether employees at lower or higher job levels are more likely to leave the organization.
+
+
+
 
 ![](AttritionbyJobLevel.png)
 
